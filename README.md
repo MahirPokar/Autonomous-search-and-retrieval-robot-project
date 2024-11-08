@@ -13,3 +13,5 @@ RP-Lidar Git - https://github.com/Slamtec/sllidar_ros2
 RealSense Depth Camera - https://github.com/IntelRealSense/realsense-ros
 
 RealSense Library - https://github.com/IntelRealSense/librealsense
+
+Lidar and camera integration tutorial - https://docs.fictionlab.pl/leo-rover/integrations/lidars/slamtec-rplidar-a2
