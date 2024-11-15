@@ -15,3 +15,5 @@ RealSense Depth Camera - https://github.com/IntelRealSense/realsense-ros
 RealSense Library - https://github.com/IntelRealSense/librealsense
 
 Lidar and camera integration tutorial - https://docs.fictionlab.pl/leo-rover/integrations/lidars/slamtec-rplidar-a2
+
+URDF: https://github.com/LeoRover/leo_simulator
