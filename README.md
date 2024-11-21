@@ -18,4 +18,4 @@ Lidar and camera integration tutorial - https://docs.fictionlab.pl/leo-rover/int
 
 URDF: https://github.com/LeoRover/leo_simulator
 
-Gantt Chart: https://www.onlinegantt.com/#/gantt
+Gantt Chart software: https://www.onlinegantt.com/#/gantt](https://www.ganttproject.biz/ 
