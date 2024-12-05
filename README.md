@@ -62,6 +62,12 @@ Run simulation:
 ros2 launch *XXXXX*
 ```
 
+## Project Plan & Record of Work
+
+The project plan is available [here]().
+
+The record of work done is avaiable [here](https://docs.google.com/document/d/1Un6J5uqXqME96WFxup4Rg6mEL7XoMLhmGVJzuQLUMJg/edit?usp=sharing).
+
 ## Acknowledgements
 
 We extend our gratitude to the University of Manchester and the Robotics Department for their invaluable support and resources, which made this project possible.
