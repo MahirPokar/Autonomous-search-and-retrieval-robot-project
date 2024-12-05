@@ -12,11 +12,11 @@ The Leo Rover platform provides an affordable and versatile foundation for robot
 
 ## Hardware
 
-Chassis - The mechanical base of the robot: Leo Rover
-Lidar - Used for mapping and obstacle detection: SLAMTEC RPLidar A2M12
-Depth Camera - Provides depth perception for object detection: Realsense D435
-Robotic Arm - Responsible for picking up and manipulating objects: Trossen-PincherX 150
-Intel NUC - The central processing unit for controlling and coordinating the robot's actions: SWNUC12WSKi7000
+- Chassis - The mechanical base of the robot: Leo Rover
+- Lidar - Used for mapping and obstacle detection: SLAMTEC RPLidar A2M12
+- Depth Camera - Provides depth perception for object detection: Realsense D435
+- Robotic Arm - Responsible for picking up and manipulating objects: Trossen-PincherX 150
+- Intel NUC - The central processing unit for controlling and coordinating the robot's actions: SWNUC12WSKi7000
 
 ## Software
 
