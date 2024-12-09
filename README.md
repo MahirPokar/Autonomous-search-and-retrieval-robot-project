@@ -64,7 +64,7 @@ ros2 launch *XXXXX*
 
 ## Project Plan & Record of Work
 
-The project plan is available [here]().
+The project plan is available [here](https://sand-weaver-acc.notion.site/Autonomous-Search-and-Retrieval-Robot-Project-11b9b09c1f93800394e0c8895a4e36ce).
 
 The record of work done is avaiable [here](https://docs.google.com/document/d/1Un6J5uqXqME96WFxup4Rg6mEL7XoMLhmGVJzuQLUMJg/edit?usp=sharing).
 
