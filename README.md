@@ -62,6 +62,32 @@ Run simulation:
 ros2 launch *XXXXX*
 ```
 
+File structure:
+
+📦 Autonomous Search and Retrieval Robot Project
+├── 📁 CAD_Files/         # CAD files for robot design (e.g., SolidWorks files, 3D models)
+├── 📁 Code/              # Main source code for the robot
+│   ├── 📄 robot_control.py       # Code for controlling robot movement and functionality
+│   ├── 📄 sensor_integration.py  # Code for processing sensor data
+│   ├── 📄 path_planning.py       # Code for navigation and obstacle avoidance
+│   └── 📄 utils.py               # Utility functions used across the project
+├── 📁 Documentation/     # Documentation and reports
+│   ├── 📄 Proposal.pdf           # Project proposal document
+│   ├── 📄 Final_Report.pdf       # Final project report
+│   ├── 📄 README.md              # Additional documentation
+│   └── 📄 References.txt         # List of references used
+├── 📁 Simulations/       # Simulation files for testing
+│   ├── 📄 simulation_setup.py    # Script to set up and run simulations
+│   ├── 📁 Models/                # 3D models used in simulations
+│   └── 📁 Results/               # Output from simulations
+├── 📁 Media/             # Images, videos, and other media files
+│   ├── 📁 Images/               # Screenshots or diagrams of the robot
+│   └── 📁 Videos/               # Video demonstrations
+├── 📄 LICENSE            # License file for the repository
+├── 📄 README.md          # Main README file with an overview of the project
+└── 📄 requirements.txt   # List of Python dependencies for the project
+
+
 ## Project Plan & Record of Work
 
 The project plan is available [here](https://sand-weaver-acc.notion.site/Autonomous-Search-and-Retrieval-Robot-Project-11b9b09c1f93800394e0c8895a4e36ce).
