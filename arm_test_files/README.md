@@ -14,3 +14,12 @@ In one terminal run the following command:
 ros2 launch interbotix_xsarm_control xsarm_control.launch.py robot_model:=px150
 ```
 
+In another terminal run the desired python file: 
+```bash
+python3 simple_test.py
+```
+Make sure the demos folder is within /interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_control 
+
+To do: 
+Make a package that only imports the necessary packages from the Interbotix library. 
+
