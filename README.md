@@ -64,28 +64,7 @@ ros2 launch *XXXXX*
 
 File structure:
 
-📦 Autonomous Search and Retrieval Robot Project
-├── 📁 CAD_Files/         # CAD files for robot design (e.g., SolidWorks files, 3D models)
-├── 📁 Code/              # Main source code for the robot
-│   ├── 📄 robot_control.py       # Code for controlling robot movement and functionality
-│   ├── 📄 sensor_integration.py  # Code for processing sensor data
-│   ├── 📄 path_planning.py       # Code for navigation and obstacle avoidance
-│   └── 📄 utils.py               # Utility functions used across the project
-├── 📁 Documentation/     # Documentation and reports
-│   ├── 📄 Proposal.pdf           # Project proposal document
-│   ├── 📄 Final_Report.pdf       # Final project report
-│   ├── 📄 README.md              # Additional documentation
-│   └── 📄 References.txt         # List of references used
-├── 📁 Simulations/       # Simulation files for testing
-│   ├── 📄 simulation_setup.py    # Script to set up and run simulations
-│   ├── 📁 Models/                # 3D models used in simulations
-│   └── 📁 Results/               # Output from simulations
-├── 📁 Media/             # Images, videos, and other media files
-│   ├── 📁 Images/               # Screenshots or diagrams of the robot
-│   └── 📁 Videos/               # Video demonstrations
-├── 📄 LICENSE            # License file for the repository
-├── 📄 README.md          # Main README file with an overview of the project
-└── 📄 requirements.txt   # List of Python dependencies for the project
+Autonomous-search-and-retrieval-robot-project/ ├── Documentation/ │ ├── ProjectProposal.pdf │ ├── DesignSpecification.pdf │ └── FinalReport.pdf ├── CAD/ │ ├── Assembly/ │ │ └── RobotAssembly.SLDASM │ ├── Parts/ │ │ ├── Base.SLDPRT │ │ ├── Arm.SLDPRT │ │ └── Claw.SLDPRT │ └── ExplodedView.pdf ├── Code/ │ ├── Controller/ │ │ ├── PIDController.cpp │ │ └── PIDController.h │ ├── Sensors/ │ │ ├── UltrasonicSensor.cpp │ │ └── UltrasonicSensor.h │ ├── Actuators/ │ │ ├── MotorDriver.cpp │ │ └── MotorDriver.h │ └── Main/ │ ├── main.cpp │ └── config.h ├── Test/ │ ├── SensorTests/ │ │ ├── UltrasonicTest.cpp │ │ └── Results.txt │ └── ActuatorTests/ │ ├── MotorTest.cpp │ └── Results.txt ├── Images/ │ ├── RobotRender.png │ ├── CircuitDiagram.jpg │ └── WorkspaceSetup.jpg ├── Videos/ │ ├── Demo.mp4 │ ├── AssemblyTimelapse.mp4 │ └── FieldTest.mp4 ├── README.md └── LICENSE
 
 
 ## Project Plan & Record of Work
