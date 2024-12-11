@@ -65,18 +65,18 @@ ros2 launch *XXXXX*
 File structure:
 
 ```bash
-.
+leo_ws
 ├── src/                       
 │   ├── arm_test_files          
 │   ├── assembly_manual        
 │   ├── leo_description_team6  
 │   ├── navigation_demos
-│   └── project_photos              
+│   ├── project_photos
+│   ├── README.md
+│   └── LICENSE             
 ├── install/                           
 ├── setup/                    
-├── build/                      
-├── README.md                            
-└── LICENSE                    
+└── build/                                         
 ```
 
 ## Project Plan & Record of Work
