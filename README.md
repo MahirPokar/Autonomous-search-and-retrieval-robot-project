@@ -66,23 +66,17 @@ File structure:
 
 ```bash
 .
-├── src/                # Source code for the project
-│   ├── main.py         # Main application entry point
-│   ├── utils.py        # Utility functions
-│   ├── config/         # Configuration files
-│   │   └── settings.json  # Default settings
-│   └── modules/        # Feature-specific modules
-│       ├── feature1.py # Code for feature 1
-│       └── feature2.py # Code for feature 2
-├── tests/              # Unit and integration tests
-│   ├── test_main.py    # Tests for main.py
-│   └── test_utils.py   # Tests for utility functions
-├── docs/               # Documentation files
-│   └── index.md        # Main documentation index
-├── .gitignore          # Files and directories to be ignored by Git
-├── README.md           # Project overview and usage instructions
-├── requirements.txt    # List of dependencies
-└── LICENSE             # License for the project
+├── src/                       
+│   ├── arm_test_files          
+│   ├── assembly_manual        
+│   ├── leo_description_team6  
+│   ├── navigation_demos
+│   └── project_photos              
+├── install/                           
+├── setup/                    
+├── build/                      
+├── README.md                            
+└── LICENSE                    
 ```
 
 ## Project Plan & Record of Work
