@@ -64,7 +64,7 @@ ros2 launch *XXXXX*
 
 File structure:
 
-Autonomous-search-and-retrieval-robot-project/ ├── Documentation/ │ ├── ProjectProposal.pdf │ ├── DesignSpecification.pdf │ └── FinalReport.pdf ├── CAD/ │ ├── Assembly/ │ │ └── RobotAssembly.SLDASM │ ├── Parts/ │ │ ├── Base.SLDPRT │ │ ├── Arm.SLDPRT │ │ └── Claw.SLDPRT │ └── ExplodedView.pdf ├── Code/ │ ├── Controller/ │ │ ├── PIDController.cpp │ │ └── PIDController.h │ ├── Sensors/ │ │ ├── UltrasonicSensor.cpp │ │ └── UltrasonicSensor.h │ ├── Actuators/ │ │ ├── MotorDriver.cpp │ │ └── MotorDriver.h │ └── Main/ │ ├── main.cpp │ └── config.h ├── Test/ │ ├── SensorTests/ │ │ ├── UltrasonicTest.cpp │ │ └── Results.txt │ └── ActuatorTests/ │ ├── MotorTest.cpp │ └── Results.txt ├── Images/ │ ├── RobotRender.png │ ├── CircuitDiagram.jpg │ └── WorkspaceSetup.jpg ├── Videos/ │ ├── Demo.mp4 │ ├── AssemblyTimelapse.mp4 │ └── FieldTest.mp4 ├── README.md └── LICENSE
+. ├── src/ # Source code for the project │ ├── main.py # Main application entry point │ ├── utils.py # Utility functions │ ├── config/ # Configuration files │ │ └── settings.json # Default settings │ └── modules/ # Feature-specific modules │ ├── feature1.py # Code for feature 1 │ └── feature2.py # Code for feature 2 ├── tests/ # Unit and integration tests │ ├── test_main.py # Tests for main.py │ └── test_utils.py # Tests for utility functions ├── docs/ # Documentation files │ └── index.md # Main documentation index ├── .gitignore # Files and directories to be ignored by Git ├── README.md # Project overview and usage instructions ├── requirements.txt # List of dependencies └── LICENSE # License for the project
 
 
 ## Project Plan & Record of Work
