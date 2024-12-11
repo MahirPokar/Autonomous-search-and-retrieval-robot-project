@@ -1,0 +1,78 @@
+simulation_ignition_ros_control:
+  ros__parameters:
+    use_sim_time: true
+
+# Generate a Controller Manager for Diff Drive in ROS 2
+simulation_controller_manager:
+  ros__parameters:
+    use_sim_time: true
+    update_rate: 25 # Hz
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    leo_controller:
+      type: diff_drive_controller/DiffDriveController
+
+leo_controller:
+  ros__parameters:
+    left_wheel_names: ["left_wheel_joint"]
+    right_wheel_names: ["right_wheel_joint"]
+
+    wheel_separation: 0.248
+    wheel_radius: 0.048
+
+    # For skid drive kinematics it will act as ICR coefficient
+    # Kinematic model with ICR coefficient isn't totally accurate and this coefficient can differ
+    # for various ground types, but checking on our office floor 1.3 looked approximately alright
+    wheel_separation_multiplier: 1.3
+
+    left_wheel_radius_multiplier: 1.0
+    right_wheel_radius_multiplier: 1.0
+
+    # Feedback from wheel joints is 25 Hz
+    publish_rate: 25.0
+    odom_frame_id: odom
+    base_frame_id: base_link
+    pose_covariance_diagonal: [0.001, 0.001, 0.001, 0.001, 0.001, 0.01] # Values should be measured experimentally
+    twist_covariance_diagonal: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0] # Values should be measured experimentally
+
+    # Whether to use feedback or commands for odometry calculations
+    open_loop: false
+
+    # Update odometry from velocity
+    # in sensor fusion only velocity is used and with this setting it is more accurate
+    position_feedback: false
+    # velocity computation filtering
+    velocity_rolling_window_size: 1
+
+    enable_odom_tf: false
+
+    # If no new Twist message received after time out, set velocity to zero
+    cmd_vel_timeout: 3.0
+    #publish_limited_velocity: true
+    use_stamped_vel: false
+
+    # Velocity and acceleration limits
+    # Whenever a min_* is unspecified, default to -max_*
+    linear:
+      x:
+        has_velocity_limits: true
+        has_acceleration_limits: true
+        has_jerk_limits: false
+        # top speed is around 1.2m/s
+        max_velocity: 0.9 # m/s
+        # min_velocity -  When unspecified, -max_velocity is used
+        max_acceleration: 1.0 # m/s^2
+        # min_acceleration - When unspecified, -max_acceleration is used.
+        max_jerk: 0.0 # m/s^3
+
+    angular:
+      z:
+        has_velocity_limits: true
+        has_acceleration_limits: true
+        has_jerk_limits: false
+        max_velocity: 3.0 # rad/s
+        # min_velocity -  When unspecified, -max_velocity is used
+        max_acceleration: 4.0 # rad/s^2
+        # min_acceleration - When unspecified, -max_acceleration is used.
+        max_jerk: 0.0 # rad/s^3
