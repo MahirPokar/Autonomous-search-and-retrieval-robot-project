@@ -59,7 +59,7 @@ colcon build
 Run simulation:
 
 ```bash
-ros2 launch *XXXXX*
+ros2 launch *TBC*
 ```
 
 File structure:
@@ -67,7 +67,8 @@ File structure:
 ```bash
 leo_ws
 ├── src/                       
-│   ├── arm_test_files          
+│   ├── arm_test_files
+│   ├── color_object_detector        
 │   ├── assembly_manual        
 │   ├── leo_description_team6  
 │   ├── navigation_demos
