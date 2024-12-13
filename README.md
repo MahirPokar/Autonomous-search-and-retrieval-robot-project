@@ -72,6 +72,7 @@ leo_ws
 │   ├── assembly_manual        
 │   ├── leo_description_team6  
 │   ├── navigation_demos
+│   ├── cad_models
 │   ├── project_photos
 │   ├── README.md
 │   └── LICENSE             
