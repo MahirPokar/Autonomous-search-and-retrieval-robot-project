@@ -1,0 +1,1 @@
+/home/mscrobotics2425laptop24/Documents/Robotics_project/rp_ws/src/build/rplidar_ros/ament_cmake_core/rplidar_rosConfig-version.cmake
