@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>obj_gsp</name>
+  <version>0.0.1</version>
+  <description>ROS 2 package for object detection and manipulator control</description>
+  <maintainer email="mscrobotics2425laptop29@todo.todo">mscrobotics2425laptop29</maintainer>
+  <license>Apache-2.0</license>  <!-- 你可以改为 MIT, BSD, GPL 等 -->
+
+  <!-- 依赖 ROS 2 的核心包 -->
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>launch</depend>
+  <depend>launch_ros</depend>
+
+  <!-- 依赖机械臂控制的包 -->
+  <depend>interbotix_xs_modules</depend>
+  <depend>interbotix_xsarm_control</depend>
+
+
+  <!-- 依赖目标检测的包 -->
+  <depend>pyrealsense2</depend>
+  <depend>opencv-python</depend>
+  <depend>numpy</depend>
+
+  <!-- 测试工具 -->
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+
