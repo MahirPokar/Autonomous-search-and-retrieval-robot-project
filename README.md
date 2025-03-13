@@ -36,13 +36,6 @@ sudo apt install ros-humble-realsense2-*
 pip install opencv-python
 ```
 
-Create a ROS2 workspace:
-
-```bash
-mkdir -p ~/leo_ws/src
-cd ~/leo_ws/src
-```
-
 Clone this repository from github:
 
 ```bash
@@ -52,7 +45,7 @@ git clone https://github.com/MahirPokar/Autonomous-search-and-retrieval-robot-pr
 Source and Build:
 
 ```bash
-cd ~/leo_ws
+cd ~/Autonomous-search-and-retrieval-robot-project/leo_ws
 source install/setup.bash
 colcon build
 ```
@@ -60,21 +53,23 @@ colcon build
 Run simulation:
 
 ```bash
-ros2 launch *TBC*
+ros2 launch navigation_demos nav_demo.launch.py
 ```
 
 File structure:
 
 ```bash
 leo_ws
-├── src/                       
+├── src/
+│   ├── leo_ws                 
 │   ├── arm_test_files
 │   ├── color_object_detector        
 │   ├── assembly_manual        
-│   ├── leo_description_team6  
-│   ├── navigation_demos
+│   ├── manipulator_test
 │   ├── cad_models
 │   ├── project_photos
+│   ├── requirements_verification
+│   ├── rp_ws
 │   ├── README.md
 │   └── LICENSE             
 ├── install/                           
