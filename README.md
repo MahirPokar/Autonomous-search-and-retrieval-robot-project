@@ -34,6 +34,10 @@ sudo apt install ros-humble-robot-localization
 sudo apt install ros-humble-librealsense2*
 sudo apt install ros-humble-realsense2-*
 pip install opencv-python
+sudo apt install curl
+curl 'https://raw.githubusercontent.com/Interbotix/interbotix_ros_manipulators/main/interbotix_ros_xsarms/install/amd64/xsarm_amd64_install.sh' > xsarm_amd64_install.sh
+chmod +x xsarm_amd64_install.sh
+./xsarm_amd64_install.sh -d humble
 ```
 
 Clone this repository from github:
