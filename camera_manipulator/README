@@ -1,4 +1,4 @@
-##The Interbotix X-Series Arms are compatible with the ROS 2 Humble on Ubuntu Linux 22.04
+#The Interbotix X-Series Arms are compatible with the ROS 2 Humble on Ubuntu Linux 22.04
 
 
 If your computer uses an Intel or AMD based processor (which is the case for NUCs, most laptops and desktop computers), follow the commands below to download and run the installation script. 
