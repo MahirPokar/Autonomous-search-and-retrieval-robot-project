@@ -1,7 +1,7 @@
-#The Interbotix X-Series Arms are compatible with the ROS 2 Humble on Ubuntu Linux 22.04
+##The Interbotix X-Series Arms are compatible with the ROS 2 Humble on Ubuntu Linux 22.04
 
 
-If your computer uses an Intel or AMD based processor (which is the case for NUCs, most laptops and desktop computers), follow the commands below to download and run the installation script. 
+#If your computer uses an Intel or AMD based processor (which is the case for NUCs, most laptops and desktop computers), follow the commands below to download and run the installation script. 
 
 
   sudo apt install curl
@@ -14,7 +14,7 @@ If your computer uses an Intel or AMD based processor (which is the case for NUC
 
 
 
-To run this package on a physical robot, run the command below in different terminals
+#To run this package on a physical robot, run the command below in different terminals
 
 
   ros2 launch interbotix_xsarm_control xsarm_control.launch.py robot_model:=px150
@@ -23,7 +23,7 @@ To run this package on a physical robot, run the command below in different term
 
 
                                                        
-If you have the latest trained data, change the/obj_gsp/models/best_copy.pt
+#If you have the latest trained data, change the/obj_gsp/models/best_copy.pt
 
 
-There are several old versions in the folder,change it if you want.
+#There are several old versions in the folder,change it if you want.
