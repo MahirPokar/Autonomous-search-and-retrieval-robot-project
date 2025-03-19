@@ -13,7 +13,9 @@ If your computer uses an Intel or AMD based processor (which is the case for NUC
 
 
 To run this package on a physical robot, run the command below in different terminals
+
   ros2 launch interbotix_xsarm_control xsarm_control.launch.py robot_model:=px150
+  
   ros2 run obj_gsp detect_object | ros2 run obj_gsp manipulator_control   OR   ros2 launch obj_gsp leolaunch1.py
 
                                                        
