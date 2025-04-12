@@ -1,0 +1,21 @@
+[0.536s] Invoking command in '/home/bestteamever/leo_sim_ws/src/leo_description': PYTHONPATH=/home/bestteamever/leo_sim_ws/build/leo_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bestteamever/leo_sim_ws/install/leo_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/leo_description build --build-base /home/bestteamever/leo_sim_ws/build/leo_description/build install --record /home/bestteamever/leo_sim_ws/build/leo_description/install.log --single-version-externally-managed install_data
+[0.667s] running egg_info
+[0.667s] writing ../../build/leo_description/leo_description.egg-info/PKG-INFO
+[0.667s] writing dependency_links to ../../build/leo_description/leo_description.egg-info/dependency_links.txt
+[0.668s] writing entry points to ../../build/leo_description/leo_description.egg-info/entry_points.txt
+[0.668s] writing requirements to ../../build/leo_description/leo_description.egg-info/requires.txt
+[0.668s] writing top-level names to ../../build/leo_description/leo_description.egg-info/top_level.txt
+[0.668s] reading manifest file '../../build/leo_description/leo_description.egg-info/SOURCES.txt'
+[0.669s] writing manifest file '../../build/leo_description/leo_description.egg-info/SOURCES.txt'
+[0.669s] running build
+[0.669s] running build_py
+[0.669s] running install
+[0.669s] running install_lib
+[0.670s] running install_data
+[0.670s] copying urdf/laser.urdf.xacro -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/urdf
+[0.670s] running install_egg_info
+[0.671s] removing '/home/bestteamever/leo_sim_ws/install/leo_description/lib/python3.10/site-packages/leo_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.671s] Copying ../../build/leo_description/leo_description.egg-info to /home/bestteamever/leo_sim_ws/install/leo_description/lib/python3.10/site-packages/leo_description-0.0.0-py3.10.egg-info
+[0.671s] running install_scripts
+[0.684s] writing list of installed files to '/home/bestteamever/leo_sim_ws/build/leo_description/install.log'
+[0.699s] Invoked command in '/home/bestteamever/leo_sim_ws/src/leo_description' returned '0': PYTHONPATH=/home/bestteamever/leo_sim_ws/build/leo_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bestteamever/leo_sim_ws/install/leo_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/leo_description build --build-base /home/bestteamever/leo_sim_ws/build/leo_description/build install --record /home/bestteamever/leo_sim_ws/build/leo_description/install.log --single-version-externally-managed install_data

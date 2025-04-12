@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f363a7f2f24cf2c2af06.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "laser_scan_merger",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "laser_scan_merger_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laser_scan_merger_uninstall-cd9af9d31fe3b08a0e87.json",
+					"name" : "laser_scan_merger_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scans_merger::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scans_merger-19b677704a30a2d829f4.json",
+					"name" : "scans_merger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scans_merger_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scans_merger_node-33beb4d86a3cb5f9addb.json",
+					"name" : "scans_merger_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0184f9d3e3d601cbaab2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bestteamever/leo_sim_ws/build/laser_scan_merger",
+		"source" : "/home/bestteamever/leo_sim_ws/src/scan_merger_2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

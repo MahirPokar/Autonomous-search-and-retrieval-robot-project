@@ -1,0 +1,57 @@
+slam_toolbox:
+  ros__parameters:
+    # Whether to use simulated time (e.g. in Gazebo)
+    use_sim_time: true
+
+    # Mode: 'mapping' or 'localization' (if you want to run purely in localization mode).
+    # The async launch file typically defaults to 'mapping' if not overridden.
+    mode: "mapping"
+
+    # Topics / frames
+    map_frame: "map"
+    odom_frame: "odom"
+    base_frame: "base_link"
+    scan_topic: "/scan"         # Change if your LIDAR scan topic name differs
+
+    # If you have an existing map to continue mapping or to load for localization,
+    # specify it here. Otherwise leave it empty (will not load a map at startup).
+    map_file_name: ""
+
+    # (Optional) If you want to start at a specific pose in the loaded map
+    map_start_pose:
+      x: 0.0
+      y: 0.0
+      yaw: 0.0
+
+    # General SLAM parameters
+    # ------------------------------------------------------------
+    minimum_time_interval: 0.0          # Minimum time (seconds) between scans
+    transform_publish_period: 0.05      # How often to publish map->odom TF
+
+    # The solver to use (options: 'solver_plugins::CeresSolver', 'solver_plugins::SpaSolver', etc.)
+    solver_plugin: "solver_plugins::CeresSolver"
+
+    # Example solver tuning parameters (Ceres):
+    ceres_linear_solver: "SPARSE_NORMAL_CHOLESKY"
+    ceres_preconditioner: "SCHUR_JACOBI"
+    ceres_trust_strategy: "LEVENBERG_MARQUARDT"
+    ceres_dogleg_type: "TRADITIONAL_DOGLEG"
+    ceres_loss_function: "HuberLoss"
+
+    # Maximum laser range to consider for building the map
+    max_laser_range: 10.0
+
+    # Whether to attempt loop closures or not
+    loop_closure_enabled: true
+
+    # For localization mode, you might also use:
+    #  localization_mode: false
+    #  allow_known_pose_updates: true
+    #  publish_tf: true
+    #  etc.
+
+    # ------------------------------------------------------------
+    # NOTE: This is only a partial set of parameters. 
+    # The official SLAM Toolbox repo has many more parameters you can tune:
+    # https://github.com/SteveMacenski/slam_toolbox/tree/ros2
+

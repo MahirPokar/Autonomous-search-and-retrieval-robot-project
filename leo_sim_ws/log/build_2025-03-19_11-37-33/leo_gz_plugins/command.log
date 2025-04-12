@@ -1,0 +1,4 @@
+Invoking command in '/home/bestteamever/leo_sim_ws/build/leo_gz_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bestteamever/leo_sim_ws/build/leo_gz_plugins -- -j16 -l16
+Invoked command in '/home/bestteamever/leo_sim_ws/build/leo_gz_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bestteamever/leo_sim_ws/build/leo_gz_plugins -- -j16 -l16
+Invoking command in '/home/bestteamever/leo_sim_ws/build/leo_gz_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bestteamever/leo_sim_ws/build/leo_gz_plugins
+Invoked command in '/home/bestteamever/leo_sim_ws/build/leo_gz_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bestteamever/leo_sim_ws/build/leo_gz_plugins

@@ -1,0 +1,5 @@
+[console_scripts]
+cube_detector = navigation_demos.cube_detector:main
+exploration = navigation_demos.exploration:main
+scan_malware = navigation_demos.scan_malware:main
+

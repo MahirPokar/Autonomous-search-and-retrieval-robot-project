@@ -1,0 +1,64 @@
+[0.692s] Invoking command in '/home/bestteamever/leo_sim_ws/src/leo_description': PYTHONPATH=/home/bestteamever/leo_sim_ws/build/leo_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bestteamever/leo_sim_ws/install/leo_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/leo_description build --build-base /home/bestteamever/leo_sim_ws/build/leo_description/build install --record /home/bestteamever/leo_sim_ws/build/leo_description/install.log --single-version-externally-managed install_data
+[0.947s] running egg_info
+[0.948s] creating ../../build/leo_description/leo_description.egg-info
+[0.948s] writing ../../build/leo_description/leo_description.egg-info/PKG-INFO
+[0.948s] writing dependency_links to ../../build/leo_description/leo_description.egg-info/dependency_links.txt
+[0.949s] writing entry points to ../../build/leo_description/leo_description.egg-info/entry_points.txt
+[0.949s] writing requirements to ../../build/leo_description/leo_description.egg-info/requires.txt
+[0.949s] writing top-level names to ../../build/leo_description/leo_description.egg-info/top_level.txt
+[0.949s] writing manifest file '../../build/leo_description/leo_description.egg-info/SOURCES.txt'
+[0.951s] reading manifest file '../../build/leo_description/leo_description.egg-info/SOURCES.txt'
+[0.952s] writing manifest file '../../build/leo_description/leo_description.egg-info/SOURCES.txt'
+[0.952s] running build
+[0.952s] running build_py
+[0.952s] creating /home/bestteamever/leo_sim_ws/build/leo_description/build
+[0.952s] creating /home/bestteamever/leo_sim_ws/build/leo_description/build/lib
+[0.952s] creating /home/bestteamever/leo_sim_ws/build/leo_description/build/lib/leo_description
+[0.952s] copying leo_description/__init__.py -> /home/bestteamever/leo_sim_ws/build/leo_description/build/lib/leo_description
+[0.953s] running install
+[0.953s] running install_lib
+[0.954s] creating /home/bestteamever/leo_sim_ws/install/leo_description/lib/python3.10/site-packages/leo_description
+[0.954s] copying /home/bestteamever/leo_sim_ws/build/leo_description/build/lib/leo_description/__init__.py -> /home/bestteamever/leo_sim_ws/install/leo_description/lib/python3.10/site-packages/leo_description
+[0.954s] byte-compiling /home/bestteamever/leo_sim_ws/install/leo_description/lib/python3.10/site-packages/leo_description/__init__.py to __init__.cpython-310.pyc
+[0.954s] running install_data
+[0.954s] creating /home/bestteamever/leo_sim_ws/install/leo_description/share/ament_index
+[0.954s] creating /home/bestteamever/leo_sim_ws/install/leo_description/share/ament_index/resource_index
+[0.955s] creating /home/bestteamever/leo_sim_ws/install/leo_description/share/ament_index/resource_index/packages
+[0.955s] copying resource/leo_description -> /home/bestteamever/leo_sim_ws/install/leo_description/share/ament_index/resource_index/packages
+[0.955s] copying package.xml -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description
+[0.955s] creating /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/launch
+[0.955s] copying launch/leo_gz.launch.py -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/launch
+[0.955s] copying launch/leo_sim.launch.py -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/launch
+[0.955s] copying launch/leo_rviz.launch.py -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/launch
+[0.955s] copying launch/leo_sim_diff_scan.launch.py -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/launch
+[0.956s] creating /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/models
+[0.956s] copying models/Rocker_outline.stl -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/models
+[0.956s] copying models/WheelA.dae -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/models
+[0.960s] copying models/Antenna.dae -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/models
+[0.961s] copying models/Wheel_outline.stl -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/models
+[0.961s] copying models/Chassis.dae -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/models
+[0.976s] copying models/Chassis_outline.stl -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/models
+[0.976s] copying models/WheelB.dae -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/models
+[0.980s] copying models/Rocker.dae -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/models
+[0.985s] creating /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/urdf
+[0.985s] copying urdf/leo_sim.urdf.xacro -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/urdf
+[0.985s] copying urdf/leo.urdf.xacro -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/urdf
+[0.985s] copying urdf/laser.urdf.xacro -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/urdf
+[0.985s] copying urdf/macros.xacro -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/urdf
+[0.985s] creating /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/rviz
+[0.986s] copying rviz/leo_view.rviz -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/rviz
+[0.986s] copying rviz/nav2.rviz -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/rviz
+[0.986s] creating /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/worlds
+[0.986s] copying worlds/meshes/wall.dae -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/worlds
+[0.986s] copying worlds/meshes/hexagon.dae -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/worlds
+[0.986s] copying worlds/tb3_exp.sdf -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/worlds
+[0.987s] copying worlds/tb3.sdf -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/worlds
+[0.987s] copying worlds/tb3rossymbol.sdf -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/worlds
+[0.987s] copying worlds/tb3old.sdf -> /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/worlds
+[0.987s] creating /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/config
+[0.987s] creating /home/bestteamever/leo_sim_ws/install/leo_description/share/leo_description/maps
+[0.987s] running install_egg_info
+[0.989s] Copying ../../build/leo_description/leo_description.egg-info to /home/bestteamever/leo_sim_ws/install/leo_description/lib/python3.10/site-packages/leo_description-0.0.0-py3.10.egg-info
+[0.990s] running install_scripts
+[1.004s] writing list of installed files to '/home/bestteamever/leo_sim_ws/build/leo_description/install.log'
+[1.020s] Invoked command in '/home/bestteamever/leo_sim_ws/src/leo_description' returned '0': PYTHONPATH=/home/bestteamever/leo_sim_ws/build/leo_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bestteamever/leo_sim_ws/install/leo_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/leo_description build --build-base /home/bestteamever/leo_sim_ws/build/leo_description/build install --record /home/bestteamever/leo_sim_ws/build/leo_description/install.log --single-version-externally-managed install_data

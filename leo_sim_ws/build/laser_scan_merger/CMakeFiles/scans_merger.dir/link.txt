@@ -1,0 +1,2 @@
+/usr/bin/ar qc libscans_merger.a CMakeFiles/scans_merger.dir/src/scans_merger.cpp.o
+/usr/bin/ranlib libscans_merger.a

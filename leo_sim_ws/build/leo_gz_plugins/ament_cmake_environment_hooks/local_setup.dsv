@@ -1,0 +1,4 @@
+source;share/leo_gz_plugins/environment/ament_prefix_path.sh
+source;share/leo_gz_plugins/environment/gz_sim_system_plugin_path.sh
+source;share/leo_gz_plugins/environment/path.sh
+source;share/leo_gz_plugins/environment/gz_sim_system_plugin_path.dsv

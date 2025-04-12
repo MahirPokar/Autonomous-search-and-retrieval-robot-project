@@ -1,0 +1,25 @@
+[0.589s] Invoking command in '/home/bestteamever/leo_sim_ws/src/navigation_demos': PYTHONPATH=/home/bestteamever/leo_sim_ws/build/navigation_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bestteamever/leo_sim_ws/install/navigation_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigation_demos build --build-base /home/bestteamever/leo_sim_ws/build/navigation_demos/build install --record /home/bestteamever/leo_sim_ws/build/navigation_demos/install.log --single-version-externally-managed install_data
+[0.732s] running egg_info
+[0.733s] writing ../../build/navigation_demos/navigation_demos.egg-info/PKG-INFO
+[0.733s] writing dependency_links to ../../build/navigation_demos/navigation_demos.egg-info/dependency_links.txt
+[0.733s] writing entry points to ../../build/navigation_demos/navigation_demos.egg-info/entry_points.txt
+[0.733s] writing requirements to ../../build/navigation_demos/navigation_demos.egg-info/requires.txt
+[0.733s] writing top-level names to ../../build/navigation_demos/navigation_demos.egg-info/top_level.txt
+[0.734s] reading manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'
+[0.735s] writing manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'
+[0.735s] running build
+[0.735s] running build_py
+[0.735s] running install
+[0.735s] running install_lib
+[0.736s] running install_data
+[0.737s] copying launch/nav_merged_lidar_mitch.launch.py -> /home/bestteamever/leo_sim_ws/install/navigation_demos/share/navigation_demos/launch
+[0.737s] copying config/p2s_config.yaml -> /home/bestteamever/leo_sim_ws/install/navigation_demos/share/navigation_demos/config
+[0.737s] running install_egg_info
+[0.738s] removing '/home/bestteamever/leo_sim_ws/install/navigation_demos/lib/python3.10/site-packages/navigation_demos-0.0.0-py3.10.egg-info' (and everything under it)
+[0.738s] Copying ../../build/navigation_demos/navigation_demos.egg-info to /home/bestteamever/leo_sim_ws/install/navigation_demos/lib/python3.10/site-packages/navigation_demos-0.0.0-py3.10.egg-info
+[0.738s] running install_scripts
+[0.753s] Installing cube_detector script to /home/bestteamever/leo_sim_ws/install/navigation_demos/lib/navigation_demos
+[0.753s] Installing exploration script to /home/bestteamever/leo_sim_ws/install/navigation_demos/lib/navigation_demos
+[0.753s] Installing scan_malware script to /home/bestteamever/leo_sim_ws/install/navigation_demos/lib/navigation_demos
+[0.753s] writing list of installed files to '/home/bestteamever/leo_sim_ws/build/navigation_demos/install.log'
+[0.767s] Invoked command in '/home/bestteamever/leo_sim_ws/src/navigation_demos' returned '0': PYTHONPATH=/home/bestteamever/leo_sim_ws/build/navigation_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bestteamever/leo_sim_ws/install/navigation_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigation_demos build --build-base /home/bestteamever/leo_sim_ws/build/navigation_demos/build install --record /home/bestteamever/leo_sim_ws/build/navigation_demos/install.log --single-version-externally-managed install_data

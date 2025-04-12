@@ -1,0 +1,54 @@
+running egg_info
+creating ../../build/navigation_demos/navigation_demos.egg-info
+writing ../../build/navigation_demos/navigation_demos.egg-info/PKG-INFO
+writing dependency_links to ../../build/navigation_demos/navigation_demos.egg-info/dependency_links.txt
+writing entry points to ../../build/navigation_demos/navigation_demos.egg-info/entry_points.txt
+writing requirements to ../../build/navigation_demos/navigation_demos.egg-info/requires.txt
+writing top-level names to ../../build/navigation_demos/navigation_demos.egg-info/top_level.txt
+writing manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'
+reading manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'
+writing manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/bestteamever/leo_sim_ws/build/navigation_demos/build
+creating /home/bestteamever/leo_sim_ws/build/navigation_demos/build/lib
+creating /home/bestteamever/leo_sim_ws/build/navigation_demos/build/lib/navigation_demos
+copying navigation_demos/exploration.py -> /home/bestteamever/leo_sim_ws/build/navigation_demos/build/lib/navigation_demos
+copying navigation_demos/cube_detector.py -> /home/bestteamever/leo_sim_ws/build/navigation_demos/build/lib/navigation_demos
+copying navigation_demos/scan_malware.py -> /home/bestteamever/leo_sim_ws/build/navigation_demos/build/lib/navigation_demos
+copying navigation_demos/__init__.py -> /home/bestteamever/leo_sim_ws/build/navigation_demos/build/lib/navigation_demos
+running install
+running install_lib
+creating /home/bestteamever/leo_sim_ws/install/navigation_demos/lib/python3.10/site-packages/navigation_demos
+copying /home/bestteamever/leo_sim_ws/build/navigation_demos/build/lib/navigation_demos/exploration.py -> /home/bestteamever/leo_sim_ws/install/navigation_demos/lib/python3.10/site-packages/navigation_demos
+copying /home/bestteamever/leo_sim_ws/build/navigation_demos/build/lib/navigation_demos/cube_detector.py -> /home/bestteamever/leo_sim_ws/install/navigation_demos/lib/python3.10/site-packages/navigation_demos
+copying /home/bestteamever/leo_sim_ws/build/navigation_demos/build/lib/navigation_demos/scan_malware.py -> /home/bestteamever/leo_sim_ws/install/navigation_demos/lib/python3.10/site-packages/navigation_demos
+copying /home/bestteamever/leo_sim_ws/build/navigation_demos/build/lib/navigation_demos/__init__.py -> /home/bestteamever/leo_sim_ws/install/navigation_demos/lib/python3.10/site-packages/navigation_demos
+byte-compiling /home/bestteamever/leo_sim_ws/install/navigation_demos/lib/python3.10/site-packages/navigation_demos/exploration.py to exploration.cpython-310.pyc
+byte-compiling /home/bestteamever/leo_sim_ws/install/navigation_demos/lib/python3.10/site-packages/navigation_demos/cube_detector.py to cube_detector.cpython-310.pyc
+byte-compiling /home/bestteamever/leo_sim_ws/install/navigation_demos/lib/python3.10/site-packages/navigation_demos/scan_malware.py to scan_malware.cpython-310.pyc
+byte-compiling /home/bestteamever/leo_sim_ws/install/navigation_demos/lib/python3.10/site-packages/navigation_demos/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/bestteamever/leo_sim_ws/install/navigation_demos/share/ament_index
+creating /home/bestteamever/leo_sim_ws/install/navigation_demos/share/ament_index/resource_index
+creating /home/bestteamever/leo_sim_ws/install/navigation_demos/share/ament_index/resource_index/packages
+copying resource/navigation_demos -> /home/bestteamever/leo_sim_ws/install/navigation_demos/share/ament_index/resource_index/packages
+copying package.xml -> /home/bestteamever/leo_sim_ws/install/navigation_demos/share/navigation_demos
+creating /home/bestteamever/leo_sim_ws/install/navigation_demos/share/navigation_demos/launch
+copying launch/nav_demo_1.launch.py -> /home/bestteamever/leo_sim_ws/install/navigation_demos/share/navigation_demos/launch
+copying launch/nav_merged_lidar.launch.py -> /home/bestteamever/leo_sim_ws/install/navigation_demos/share/navigation_demos/launch
+creating /home/bestteamever/leo_sim_ws/install/navigation_demos/share/navigation_demos/config
+copying config/bt_nav.yaml -> /home/bestteamever/leo_sim_ws/install/navigation_demos/share/navigation_demos/config
+copying config/slam_params.yaml -> /home/bestteamever/leo_sim_ws/install/navigation_demos/share/navigation_demos/config
+copying config/nav_params_for_merged.yaml -> /home/bestteamever/leo_sim_ws/install/navigation_demos/share/navigation_demos/config
+copying config/controller.yaml -> /home/bestteamever/leo_sim_ws/install/navigation_demos/share/navigation_demos/config
+copying config/nav_params.yaml -> /home/bestteamever/leo_sim_ws/install/navigation_demos/share/navigation_demos/config
+copying config/maze.yaml -> /home/bestteamever/leo_sim_ws/install/navigation_demos/share/navigation_demos/config
+copying config/planner.yaml -> /home/bestteamever/leo_sim_ws/install/navigation_demos/share/navigation_demos/config
+running install_egg_info
+Copying ../../build/navigation_demos/navigation_demos.egg-info to /home/bestteamever/leo_sim_ws/install/navigation_demos/lib/python3.10/site-packages/navigation_demos-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cube_detector script to /home/bestteamever/leo_sim_ws/install/navigation_demos/lib/navigation_demos
+Installing exploration script to /home/bestteamever/leo_sim_ws/install/navigation_demos/lib/navigation_demos
+Installing scan_malware script to /home/bestteamever/leo_sim_ws/install/navigation_demos/lib/navigation_demos
+writing list of installed files to '/home/bestteamever/leo_sim_ws/build/navigation_demos/install.log'
