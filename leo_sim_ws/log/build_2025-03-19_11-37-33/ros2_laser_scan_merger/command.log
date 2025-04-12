@@ -1,4 +1,0 @@
-Invoking command in '/home/bestteamever/leo_sim_ws/build/ros2_laser_scan_merger': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bestteamever/leo_sim_ws/build/ros2_laser_scan_merger -- -j16 -l16
-Invoked command in '/home/bestteamever/leo_sim_ws/build/ros2_laser_scan_merger' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bestteamever/leo_sim_ws/build/ros2_laser_scan_merger -- -j16 -l16
-Invoking command in '/home/bestteamever/leo_sim_ws/build/ros2_laser_scan_merger': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bestteamever/leo_sim_ws/build/ros2_laser_scan_merger
-Invoked command in '/home/bestteamever/leo_sim_ws/build/ros2_laser_scan_merger' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bestteamever/leo_sim_ws/build/ros2_laser_scan_merger
