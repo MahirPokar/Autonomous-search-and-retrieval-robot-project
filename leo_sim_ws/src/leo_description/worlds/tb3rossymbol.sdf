@@ -1,0 +1,301 @@
+<sdf version="1.5">
+  <model name="maze_map">
+    <static>true</static>
+    <link name="maze_link">
+      <!-- ===================== BOUNDARY WALLS (3m x 6m) ===================== -->
+      <collision name="wall_left_collision">
+        <pose>0 3 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.01 6.0 0.6</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="wall_left_visual">
+        <pose>0 3 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.01 6.0 0.6</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <collision name="wall_right_collision">
+        <pose>3 3 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.01 6.0 0.6</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="wall_right_visual">
+        <pose>3 3 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.01 6.0 0.6</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <collision name="wall_bottom_collision">
+        <pose>1.5 0 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>3.0 0.01 0.6</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="wall_bottom_visual">
+        <pose>1.5 0 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>3.0 0.01 0.6</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <collision name="wall_top_collision">
+        <pose>1.5 6 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>3.0 0.01 0.6</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="wall_top_visual">
+        <pose>1.5 6 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>3.0 0.01 0.6</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <!-- ===================== SHORT WALLS NEAR TOP ===================== -->
+      <collision name="wall_top_left_collision">
+        <pose>0.5 5 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>1.0 0.01 0.6</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="wall_top_left_visual">
+        <pose>0.5 5 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>1.0 0.01 0.6</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <collision name="wall_top_vertical_collision">
+        <pose>2 5.5 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.01 1.0 0.6</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="wall_top_vertical_visual">
+        <pose>2 5.5 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.01 1.0 0.6</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <collision name="wall_right_mid_collision">
+        <pose>2.5 3.5 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.01 1.0 0.6</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="wall_right_mid_visual">
+        <pose>2.5 3.5 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.01 1.0 0.6</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <!-- ===================== TRIANGULAR SHAPE (BOTTOM LEFT) ===================== -->
+      <!--
+           Two diagonals meeting at (1.5, 0) on the bottom boundary:
+           1) from (0,1.0) to (1.5,0)
+           2) from (0,3.0) to (1.5,0)
+           This uses the existing left boundary between y=1.0 and y=3.0
+           to form a closed triangle.
+      -->
+
+      <!-- Diagonal #1: line from (0,1.0) to (1.5,0). -->
+      <collision name="triangle_line1_collision">
+        <!-- Midpoint ~ (0.75, 0.5), length ~ 1.80, angle ~ -0.588 rad -->
+        <pose>0.433 1.0 0.3 0 0 0.523</pose>
+        <geometry>
+          <box>
+            <size>1.0 0.01 0.6</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="triangle_line1_visual">
+        <pose>0.433 1.0 0.3 0 0 0.523</pose>
+        <geometry>
+          <box>
+            <size>1.00 0.01 0.6</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <!-- Diagonal #2: line from (0,3.0) to (1.5,0). -->
+      <collision name="triangle_line2_collision">
+        <!-- Midpoint ~ (0.75, 1.5), length ~ 3.35, angle ~ -1.106 rad -->
+        <pose>0.433 1.5 0.3 0 0 -0.523</pose>
+        <geometry>
+          <box>
+            <size>1.0 0.01 0.6</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="triangle_line2_visual">
+        <pose>0.433 1.5 0.3 0 0 -0.523</pose>
+        <geometry>
+          <box>
+            <size>1.0 0.01 0.6</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <!-- ===================== “U” SHAPE IN CENTER ===================== -->
+      <collision name="u_left_collision">
+        <pose>1.0 3 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.01 1.0 0.6</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="u_left_visual">
+        <pose>1.0 3 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.01 1.0 0.6</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <collision name="u_right_collision">
+        <pose>1.6 3 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.01 1.0 0.6</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="u_right_visual">
+        <pose>1.6 3 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.01 1.0 0.6</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <collision name="u_top_collision">
+        <pose>1.3 2.5 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.6 0.01 0.6</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="u_top_visual">
+        <pose>1.3 2.5 0.3 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.6 0.01 0.6</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <!-- ===================== BOXES (20cm each side) ===================== -->
+      <!-- Box near top-left -->
+      <collision name="box_left_collision">
+        <pose>0.6 4.0 0.1 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.2 0.2 0.2</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="box_left_visual">
+        <pose>0.6 4.0 0.1 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.2 0.2 0.2</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <!-- Box near top-right -->
+      <collision name="box_top_right_collision">
+        <pose>2.5 5.0 0.1 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.2 0.2 0.2</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="box_top_right_visual">
+        <pose>2.5 5.0 0.1 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.2 0.2 0.2</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <!-- Box near bottom-center -->
+      <collision name="box_bottom_center_collision">
+        <pose>1.5 1.0 0.1 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.2 0.2 0.2</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="box_bottom_center_visual">
+        <pose>1.5 1.0 0.1 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.2 0.2 0.2</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <!-- Box near center of the U -->
+      <collision name="box_center_collision">
+        <pose>1.5 3.0 0.1 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.2 0.2 0.2</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="box_center_visual">
+        <pose>1.5 3.0 0.1 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.2 0.2 0.2</size>
+          </box>
+        </geometry>
+      </visual>
+
+    </link>
+  </model>
+</sdf>
+
