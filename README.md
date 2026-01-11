@@ -1,4 +1,9 @@
-# Autonomous Search and Retrieval Robot Project 
+# Autonomous Search & Retrieval Robot (Leo Rover + ROS 2)
+
+<p align="center">
+  <img src="Assets/Demo.gif" width="850" alt="10-second demo of autonomous search & retrieval" />
+</p>
+
 
 ## Introduction
 
